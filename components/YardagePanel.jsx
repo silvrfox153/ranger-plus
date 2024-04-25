@@ -1,9 +1,11 @@
 import Image from 'next/image';
+import holeData from '@/holeData.json';
 import waylandLogo from '@/assets/images/wayland-cc-logo.png';
 
 const YardagePanel = () => {
+  console.log(holeData);
   return (
-    <section className="bg-gray-100 border-4 max-h-80  m-10">
+    <section className="bg-gray-100 border-4 max-h-80 m-10">
       <Image
         className="w-6/12 m-auto"
         src={waylandLogo}

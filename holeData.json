@@ -1,0 +1,14 @@
+[
+  {
+    "_id": "1",
+    "name": "Hole 1",
+    "par": "5",
+    "description": "This is a beautiful starting hole.",
+    "redTee": "380",
+    "goldTee": "383",
+    "whiteTee": "418",
+    "blueTee": "454",
+
+    "images": ["hole-1.png", "green-1.png"]
+  }
+]

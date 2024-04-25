@@ -1,6 +1,7 @@
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import YardagePanel from '@/components/YardagePanel';
+import DistancePanel from '@/components/DistancePanel';
 import '@/assets/styles/globals.css';
 
 export const metadata = {
@@ -17,7 +18,7 @@ const MainLayout = ({ children }) => {
         <main className="grid grid-cols-3 gap-3">
           <YardagePanel />
           {children}
-          <h1>Right Col</h1>
+          <DistancePanel />
         </main>
         <Footer />
       </body>
