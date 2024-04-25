@@ -1,5 +1,6 @@
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import YardageView from '@/components/YardageView';
 import '@/assets/styles/globals.css';
 
 export const metadata = {
@@ -13,7 +14,10 @@ const MainLayout = ({ children }) => {
     <html lang="en">
       <body>
         <Navbar />
-        <main className="flex justify-center text-center">{children}</main>
+        <main className="grid grid-cols-3 gap-3">
+          <YardageView />
+          {children}
+        </main>
         <Footer />
       </body>
     </html>
