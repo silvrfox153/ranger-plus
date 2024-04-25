@@ -1,9 +1,9 @@
 import Image from 'next/image';
 import waylandLogo from '@/assets/images/wayland-cc-logo.png';
 
-const YardageView = () => {
+const YardagePanel = () => {
   return (
-    <section className="bg-gray-100 border-4">
+    <section className="bg-gray-100 border-4 max-h-80  m-10">
       <Image
         className="w-6/12 m-auto"
         src={waylandLogo}
@@ -17,4 +17,4 @@ const YardageView = () => {
   );
 };
 
-export default YardageView;
+export default YardagePanel;
